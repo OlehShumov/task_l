@@ -49,7 +49,8 @@ INSTALLED_APPS = [
 
     # User apps
     'accounts.apps.AccountsConfig',
-    'movies.apps.MoviesConfig'
+    'movies.apps.MoviesConfig',
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
